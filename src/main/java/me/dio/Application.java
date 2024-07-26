@@ -11,3 +11,5 @@ public class Application {
 	}
 
 }
+//https://github.com/falvojr/santander-dev-week-2023
+//https://github.com/digitalinnovationone/santander-dev-week-2023-api
