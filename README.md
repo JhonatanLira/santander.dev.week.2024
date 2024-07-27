@@ -12,7 +12,7 @@ classDiagram
         - News news
     }
     
-    class BankAccount {
+    class Account {
         - String accountNumber
         - String accountAgency
         - float accountBalance
@@ -34,10 +34,10 @@ classDiagram
         - String description
     }
     
-    User --> BankAccount
-    User --> Feature
-    User --> Card
-    User --> News
+    User"1" *--"1" Account
+    User"1" *--"N" Feature
+    User"1" *--"1" Card
+    User"1" *--"N" News
 
 ```
 
