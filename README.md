@@ -42,4 +42,8 @@ classDiagram
 ```
 
 ## Banco H2
-<a href="http://localhost:8080/h2-console/" >Banco H2</a>
+<a href="http://localhost:8080/h2-console/" target="_blank">Banco H2</a>
+
+
+## Swagger 
+<a href="https://github.com/springdoc/springdoc-openapi/"> Swagger</a>
