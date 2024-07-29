@@ -1,9 +1,10 @@
 package me.dio.domain.model;
 
 import jakarta.persistence.Entity;
-import org.springframework.data.repository.cdi.Eager;
+import jakarta.persistence.Id;
+import me.dio.domain.model.BaseItem;
 
 @Entity(name = "tb_news")
-public class News {
+public class News extends BaseItem{
 
 }
